@@ -1,0 +1,17 @@
+{
+	"name": "sg-uid",
+	"repo": "davidtsuji/sg-uid",
+	"description": "Get a random hash",
+	"version": "0.0.1",
+	"main": "index.js",
+	"scripts": [
+		"index.js"
+	],
+	"dependencies": {
+		"davidtsuji/sg-random-between": "*"
+	},
+	"development":{
+		"visionmedia/mocha": "*",
+		"component/assert": "*"
+	}
+}
